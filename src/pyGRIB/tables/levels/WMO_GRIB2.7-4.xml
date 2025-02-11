@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<levelMap>
+  <level code="239">
+    <description>Layer between ocean surface and 26C ocean isothermal level</description>
+    <shortName>S26CY</shortName>
+  </level>
+  <layer code="240">
+    <description>Ocean mixed layer</description>
+  </layer>
+  <level code="242">
+    <description>Convective cloud bottom level</description>
+    <shortName>CCBL</shortName>
+  </level>
+  <level code="243">
+    <description>Convective cloud top level</description>
+    <shortName>CCTL</shortName>
+  </level>
+  <level code="244">
+    <description>Convective cloud layer</description>
+    <shortName>CCY</shortName>
+  </level>
+  <level code="245">
+    <description>Lowest level of the wet bulb zero</description>
+    <shortName>LLTW</shortName>
+  </level>
+  <level code="246">
+    <description>Maximum equivalent potential temperature level</description>
+    <shortName>MTHE</shortName>
+  </level>
+  <level code="247">
+    <description>Equilibrium level</description>
+    <shortName>EHLT</shortName>
+  </level>
+  <level code="248">
+    <description>Shallow convective cloud bottom level</description>
+    <shortName>SCBL</shortName>
+  </level>
+  <level code="249">
+    <description>Shallow convective cloud top level</description>
+    <shortName>SCTL</shortName>
+  </level>
+  <level code="251">
+    <description>Deep convective cloud bottom level</description>
+    <shortName>DCBL</shortName>
+  </level>
+  <level code="252">
+    <description>Deep convective cloud top level</description>
+    <shortName>DCTL</shortName>
+  </level>
+  <level code="253">
+    <description>Lowest bottom level of supercooled liquid water layer</description>
+    <shortName>LBLSW</shortName>
+  </level>
+  <level code="254">
+    <description>Highest top level of supercooled liquid water layer</description>
+    <shortName>HTLSW</shortName>
+  </level>
+</levelMap>
