@@ -1,5 +1,115 @@
 <?xml version="1.0" ?>
 <levelMap>
+  <level code="1">
+    <description>Ground or water surface</description>
+    <shortName>SFC</shortName>
+  </level>
+  <level code="2">
+    <description>Cloud base level</description>
+    <shortName>CBL</shortName>
+  </level>
+  <level code="3">
+    <description>Level of cloud tops</description>
+    <shortName>CTL</shortName>
+  </level>
+  <level code="4">
+    <description>Level of 0-degree C isotherm</description>
+    <shortName>0DEG</shortName>
+  </level>
+  <level code="5">
+    <description>Level of adiabatic condensation lifted from the surface</description>
+    <shortName>ADCL</shortName>
+  </level>
+  <level code="6">
+    <description>Maximum wind level</description>
+    <shortName>MWSL</shortName>
+  </level>
+  <level code="7">
+    <description>Tropopause</description>
+    <shortName>TRO</shortName>
+  </level>
+  <level code="8">
+    <description>Nominal top of atmosphere</description>
+    <shortName>NTAT</shortName>
+  </level>
+  <level code="9">
+    <description>Sea bottom</description>
+    <shortName>SEAB</shortName>
+  </level>
+  <layer code="10">
+    <description>Entire atmosphere</description>
+    <shortName>EATM</shortName>
+  </layer>
+  <level code="11">
+    <description>Cumulonimbus base</description>
+    <shortName>CB</shortName>
+  </level>
+  <level code="12">
+    <description>Cumulonimbus top</description>
+    <shortName>CT</shortName>
+  </level>
+  <level code="20">
+    <description>Isothermal level</description>
+    <units>deg K</units>
+    <shortName>TMPL</shortName>
+  </level>
+    <level code="100">
+    <description>Isobaric surface</description>
+    <units>mbar</units>
+    <shortName>ISBL</shortName>
+  </level>
+  <level code="101">
+    <description>Mean sea level</description>
+    <shortName>MSL</shortName>
+  </level>
+  <level code="102">
+    <description>Specified altitude above mean sea level</description>
+    <units>m</units>
+    <shortName>GPML</shortName>
+  </level>
+  <level code="103">
+    <description>Specified height above ground</description>
+    <units>m</units>
+    <shortName>HTGL</shortName>
+  </level>
+  <level code="104">
+    <description>Sigma level</description>
+    <shortName>SIGL</shortName>
+  </level>
+  <level code="105">
+    <description>Hybrid level</description>
+    <shortName>HYBL</shortName>
+  </level>
+  <level code="106">
+    <description>Depth below land surface</description>
+    <units>m</units>
+    <shortName>DBLL</shortName>
+  </level>
+  <level code="107">
+    <description>Isentropic (theta) level</description>
+    <units>deg K</units>
+    <shortName>THEL</shortName>
+  </level>
+  <level code="108">
+    <description>Level at specified pressure difference from ground to level</description>
+    <units>mbar</units>
+    <shortName>SPDL</shortName>
+  </level>
+  <level code="109">
+    <description>Potential vorticity surface</description>
+    <units>10^-9 deg K m^2 kg^-1 s^-1</units>
+    <shortName>PVL</shortName>
+  </level>
+  <level code="111">
+    <description>Eta level</description>
+    <shortName>ETAL</shortName>
+  </level>
+  <level code="113">
+    <description>Logarithmic hybrid level</description>
+  </level>
+  <level code="114">
+    <description>Snow level</description>
+  </level>
   <level code="239">
     <description>Layer between ocean surface and 26C ocean isothermal level</description>
     <shortName>S26CY</shortName>
